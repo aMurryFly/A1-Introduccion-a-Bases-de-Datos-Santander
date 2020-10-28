@@ -4,14 +4,6 @@
 
 <div style="text-align: justify;">
 
-### EXTRA: Soluciones 💻✌🏻
-
-**Aquí comparto las soluciones y los ejercicios sin resolver de la sesión:**
-
-[`Retos de la clase`](../)
-
-[`Ejercicios`](../ejercicios.sql)
-
 ### 1. Objetivos :dart:
 
 - Aplicar los conceptos adquiridos durante la sesión.

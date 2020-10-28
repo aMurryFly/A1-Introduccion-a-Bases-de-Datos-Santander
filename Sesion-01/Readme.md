@@ -85,6 +85,16 @@ Aplica lo todo lo que aprendiste durante la sesión en estos ejercicios.
 
 - [**`EJERCICIOS SESIÓN 1`**](Ejercicios/Readme.md)
 
+
+### EXTRA: Soluciones 💻✌🏻
+
+**Aquí comparto los retos de la clase y las soluciones a los ejercicios de práctica:**
+
+[`Retos de la clase`](../Sesion-01/Ejercicios/)
+
+[`Ejercicios`](../Sesion-01/Ejercicios/ejercicios.sql)
+
+
 <br/>
 
 [`Anterior`](../Readme.md) | [`Siguiente`](../Sesion-02/Readme.md)      
