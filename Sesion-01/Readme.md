@@ -90,7 +90,7 @@ Aplica lo todo lo que aprendiste durante la sesión en estos ejercicios.
 
 **Aquí comparto los retos de la clase y las soluciones a los ejercicios de práctica:**
 
-[`Retos de la clase`](../Sesion-01/Ejercicios/)
+[`Retos de la clase`](../Sesion-01/Ejercicios/retos.sql)
 
 [`Ejercicios`](../Sesion-01/Ejercicios/ejercicios.sql)
 
