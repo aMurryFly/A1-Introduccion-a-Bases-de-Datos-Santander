@@ -1,6 +1,5 @@
 # Session 2
 
-#### PRevio para empezar
 
 #show databases;
 use Tienda;
