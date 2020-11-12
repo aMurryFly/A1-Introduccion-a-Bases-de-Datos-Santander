@@ -100,5 +100,5 @@ Archivo JSON con resultados: [click here](https://github.com/aMurryFly/A1-Introd
     }
    ```
 
-Archivo JSON con resultados: [click here](https://github.com/aMurryFly/A1-Introduccion-a-Bases-de-Datos-Santander/blob/main/Sesion-04/Ejercicios/reto1.json)
+Archivo JSON con resultados: [click here](https://github.com/aMurryFly/A1-Introduccion-a-Bases-de-Datos-Santander/blob/main/Sesion-04/Ejercicios/reto2.json)
 
