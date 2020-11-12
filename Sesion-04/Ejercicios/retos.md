@@ -1,7 +1,7 @@
 ## Sesión 4: Fundamentos de Mongo DB
 
 
-### 0. General
+### General
 
 - Los resultados en json obtenidos tras realizar las consultas se encuentran en los archivos ".json" de la parte inferior 
 - También se incluyen algunas capturas de pantalla de los respectivos retos  
@@ -9,7 +9,7 @@
 [imágenes aquí](https://github.com/aMurryFly/A1-Introduccion-a-Bases-de-Datos-Santander/tree/main/Sesion-04/Ejercicios/img)
 
 
-### 1. RETO 1 :rocket:
+### RETO 1 :rocket:
 
 1.1 Fecha, nombre y texto de cada comentario.
 
@@ -42,7 +42,7 @@
 
 Archivo JSON con resultados: [click here](https://github.com/aMurryFly/A1-Introduccion-a-Bases-de-Datos-Santander/blob/main/Sesion-04/Ejercicios/reto1.json)
 
-### 2. RETO 2 :rocket:
+### RETO 2 :rocket:
 
 2.1 ¿Qué comentarios ha hecho Greg Powell?
 
