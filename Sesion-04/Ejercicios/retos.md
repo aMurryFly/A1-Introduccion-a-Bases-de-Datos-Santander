@@ -11,22 +11,33 @@
 1.1 Fecha, nombre y texto de cada comentario.
 
    ```json
-   {date:1, name:1, text:1}
+   {
+   date:1, 
+   name:1, 
+   text:1
+   }
    ```
 
 1.2 Título, elenco y año de cada película.
 
    ```json
-   {title:1, cast:1, year:1}
+   {
+   title:1, 
+   cast:1, 
+   year:1
+   }
    ```
 
 1.3 Nombre y contraseña de cada usuario.
 
    ```json
-   {name:1, password:1}	
+   {
+   name:1, 
+   password:1
+   }
    ```
 
-Archivo JSON con resultados: [click here](https://github.com/aMurryFly/)
+Archivo JSON con resultados: [click here](https://github.com/aMurryFly/A1-Introduccion-a-Bases-de-Datos-Santander/blob/main/Sesion-04/Ejercicios/reto1.json)
 
 ### 2. RETO 2 :rocket:
 
@@ -86,5 +97,5 @@ Archivo JSON con resultados: [click here](https://github.com/aMurryFly/)
     }
    ```
 
-Archivo JSON con resultados: [click here](https://github.com/aMurryFly/)
+Archivo JSON con resultados: [click here](https://github.com/aMurryFly/A1-Introduccion-a-Bases-de-Datos-Santander/blob/main/Sesion-04/Ejercicios/reto1.json)
 
