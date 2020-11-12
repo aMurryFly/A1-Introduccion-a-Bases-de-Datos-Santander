@@ -4,7 +4,10 @@
 ### 0. General
 
 - Los resultados en json obtenidos tras realizar las consultas se encuentran en los archivos ".json" de la parte inferior 
-- También se incluyen algunas capturas de pantalla de los respectivos retos 
+- También se incluyen algunas capturas de pantalla de los respectivos retos  
+
+[imágenes aquí](https://github.com/aMurryFly/A1-Introduccion-a-Bases-de-Datos-Santander/tree/main/Sesion-04/Ejercicios/img)
+
 
 ### 1. RETO 1 :rocket:
 
