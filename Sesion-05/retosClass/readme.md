@@ -79,6 +79,6 @@
          }
       }]
    ```
-[Reto 3: link (Python code)](https://github.com/aMurryFly/A1-Introduccion-a-Bases-de-Datos-Santander/tree/main/Sesion-05/retosClass/reto3.py
+[Reto 3: Python code](https://github.com/aMurryFly/A1-Introduccion-a-Bases-de-Datos-Santander/tree/main/Sesion-05/retosClass/reto3.py)
 
 
