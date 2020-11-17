@@ -1,0 +1,24 @@
+{
+    filter: {
+     house_rules: RegExp('No Parties', i)
+    }
+}
+
+{
+    filter: {
+     house_rules: RegExp('[^no] pets allowed', i)
+    }
+}
+
+
+{
+    filter: {
+     house_rules: RegExp('no\sSmoking', i)
+    }
+}
+
+{
+    filter: {
+     house_rules: RegExp('(no smoking.*no parties)|(no parties.*no smoking)', i)
+    }
+   }
