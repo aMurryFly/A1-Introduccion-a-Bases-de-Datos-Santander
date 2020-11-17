@@ -62,10 +62,23 @@
 
 ### RETO 3 :rocket:
 
-3.1 Usando la colección sample_airbnb.listingsAndReviews, mediante el uso de agregaciones, encontrar el número de publicaciones que tienen conexión a Internet, sea desde Wifi o desde cable (Ethernet).
-
- *Pendiente*
-
-[Reto 3: link](https://github.com/aMurryFly/A1-Introduccion-a-Bases-de-Datos-Santander/tree/main/Sesion-05/retosClass/reto3.json)
+3.1 Usando la colección sample_airbnb.listingsAndReviews, mediante el uso de agregaciones, encontrar el número de publicaciones que tienen conexión a Internet, sea desde Wifi o desde cable (Ethernet). (A continuación pipeline )
+   ```json 
+      [{
+         $match: {
+            amenities: {
+                  $in: ["Wifi", "Ethernet"]
+            }
+         }
+      }, {
+         $group: {
+            _id: null,
+            total: {
+                  $sum: 1
+            }
+         }
+      }]
+   ```
+[Reto 3: link (Python code)](https://github.com/aMurryFly/A1-Introduccion-a-Bases-de-Datos-Santander/tree/main/Sesion-05/retosClass/reto3.json)
 
 
