@@ -1,4 +1,4 @@
-## Sesión 5: Consultas en MongoDB
+## Sesión 6: Agregaciones
 
 
 ### General
