@@ -69,6 +69,6 @@
 ### RETO 3 :rocket:
 
 3.1 El resultado de la viste se puede ver en la imagen adjunta
-[Imagen here](https://github.com/aMurryFly/A1-Introduccion-a-Bases-de-Datos-Santander/tree/main/Sesion-06//retosClase/reto3.png)
+[Imagen here](https://github.com/aMurryFly/A1-Introduccion-a-Bases-de-Datos-Santander/blob/main/Sesion-06/retoClase/reto3.png)
 
 
