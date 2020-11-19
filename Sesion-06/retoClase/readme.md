@@ -34,7 +34,7 @@
         }}]
    ```
 
-[Reto 1: Python code](https://github.com/aMurryFly/A1-Introduccion-a-Bases-de-Datos-Santander/tree/main/Sesion-06/retosClase/reto1.py)
+[Reto 1: Python code](https://github.com/aMurryFly/A1-Introduccion-a-Bases-de-Datos-Santander/blob/main/Sesion-06/retoClase/reto1.py)
 
 
 
@@ -62,7 +62,7 @@
         }}]
    ```
 
-[Reto 2: Python code](https://github.com/aMurryFly/A1-Introduccion-a-Bases-de-Datos-Santander/tree/main/Sesion-06/retosClase/reto2.py)
+[Reto 2: Python code](https://github.com/aMurryFly/A1-Introduccion-a-Bases-de-Datos-Santander/blob/main/Sesion-06/retoClase/reto2.py)
 
 
 
