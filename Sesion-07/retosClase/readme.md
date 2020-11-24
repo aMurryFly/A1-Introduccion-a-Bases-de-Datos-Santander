@@ -3,72 +3,34 @@
 
 ### General
 
-- Los resultados en json obtenidos tras realizar las consultas se encuentran en los archivos ".json" de la parte inferior 
-- También se incluyen algunas capturas de pantalla de los respectivos retos  
+1. En la carpeta carpeta [datasets](https://github.com/aMurryFly/A1-Introduccion-a-Bases-de-Datos-Santander/tree/main/Sesion-07/retosClase/datasets) se encuentran los archivos csv modificados para su posterior importación.
+
+2. Para los restos 2 y 3 se muestran en la parte inferior capturas de pantalla como evidencia de la importación de los datos a sus respectivas Bases de Datos
+
+3. Para el reto 1, comparto el archivo [reto1.sql](https://github.com/aMurryFly/A1-Introduccion-a-Bases-de-Datos-Santander/blob/main/Sesion-07/retosClase/reto1.sql) para mostrar el como se crearon las tablas dentro de mysql, previo a la importanción.
 
 
 ### RETO 1 :rocket:
+ 
+ 
+Archivo sql:
 
-1.1 Con base en el ejemplo 1, modifica el agrupamiento para que muestre el costo promedio por habitación por país de las propiedades de tipo casa.
-   ```json 
-        [{$match: {
-        property_type: 'House',
-        bedrooms: {$gte: 1}
-        }}, {$addFields: {
-        costo_recamara: {$divide: ["$price", "$bedrooms"]}
-        }}, {$group: {
-        _id: "$address.country",
-        recamaras: {
-            $sum: 1
-        },
-        total: {
-            $sum: "$costo_recamara"
-        }
-        }}, {$addFields: {
-        pais: "$_id",
-        costo_promedio: {$divide: ["$total", "$recamaras"]}
-        }}, {$project: {
-        _id:0,
-        pais:1,
-        costo_promedio:1
-        }}]
-   ```
+[reto1.sql](https://github.com/aMurryFly/A1-Introduccion-a-Bases-de-Datos-Santander/blob/main/Sesion-07/retosClase/reto1.sql)
 
-[Reto 1: Python code](https://github.com/aMurryFly/A1-Introduccion-a-Bases-de-Datos-Santander/blob/main/Sesion-06/retoClase/reto1.py)
-
+Imagen donde se muestra la creación de las tablas en mysql:
+<img src="https://github.com/aMurryFly/A1-Introduccion-a-Bases-de-Datos-Santander/blob/main/Sesion-07/retosClase/retosImg/reto1.png" alt="img" style="zoom:50%;" />
 
 
 ### RETO 2 :rocket:
 
-2.1 Usando las colecciones comments y users, se requiere conocer el correo y contraseña de cada persona que realizó un comentario. Construye un pipeline que genere como resultado estos datos.
-
-   ```json 
-        [{$lookup: {
-        from: 'users',
-        localField: 'name',
-        foreignField: 'name',
-        as: 'usuario'
-        }}, {$addFields: {
-        user_Aux: {
-            $arrayElemAt: ["$usuario", 0]
-        }
-        }}, {$addFields: {
-        user_Pass: "$user_Aux.password"
-        }}, {$project: {
-        _id:0,
-        name:1,
-        email:1,
-        user_Pass:1
-        }}]
-   ```
-
-[Reto 2: Python code](https://github.com/aMurryFly/A1-Introduccion-a-Bases-de-Datos-Santander/blob/main/Sesion-06/retoClase/reto2.py)
+Evidencia de importación de datos en mysql:
+<img src="https://github.com/aMurryFly/A1-Introduccion-a-Bases-de-Datos-Santander/blob/main/Sesion-07/retosClase/retosImg/reto2.png" alt="img" style="zoom:50%;" />
 
 
 
 ### RETO 3 :rocket:
 
-3.1 El resultado de la viste se puede ver en la imagen adjunta
-[Imagen here](https://github.com/aMurryFly/A1-Introduccion-a-Bases-de-Datos-Santander/blob/main/Sesion-06/retoClase/reto3.png)
+Evidencia de importación de datos en MongoDB:
 
+<img src="https://github.com/aMurryFly/A1-Introduccion-a-Bases-de-Datos-Santander/blob/main/Sesion-07/retosClase/retosImg/reto3.png" alt="img" style="zoom:50%;" />
 
