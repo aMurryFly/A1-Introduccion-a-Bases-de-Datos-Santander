@@ -1,4 +1,4 @@
-## Sesión 5: Consultas en MongoDB
+## Sesión 7: Configuración de Bases de Datos Locales
 
 
 ### General
