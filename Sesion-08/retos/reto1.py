@@ -1,7 +1,6 @@
 # Requires the PyMongo package.
 # https://api.mongodb.com/python/current
 
-client = MongoClient('mongodb+srv://murry:3141592@bedu-course.my85z.mongodb.net/test?authSource=admin&replicaSet=atlas-qodrwe-shard-0&readPreference=primary&appname=MongoDB%20Compass&ssl=true')
 result = client['Reto8']['starbucks'].aggregate([
     {
         '$addFields': {
