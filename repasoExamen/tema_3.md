@@ -1,0 +1,11 @@
+# JOINS y vistas
+
+## PREWORK 
+
+
+
+
+
+
+
+
