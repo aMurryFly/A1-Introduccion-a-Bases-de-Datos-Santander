@@ -22,7 +22,7 @@
     WHERE salario > 5000;
 ```
 
-(Link para funciones)[https://www.techonthenet.com/mysql/functions/] 
+[Link para funciones](https://www.techonthenet.com/mysql/functions/)
 
 
 - GROUP BY 
@@ -49,5 +49,5 @@ FROM
 
 ## WORK
 
-(Ejercicios)[https://github.com/aMurryFly/A1-Introduccion-a-Bases-de-Datos-Santander/blob/main/Sesion-02/Ejercicios/retos.sql]
+[Ejercicios](https://github.com/aMurryFly/A1-Introduccion-a-Bases-de-Datos-Santander/blob/main/Sesion-02/Ejercicios/retos.sql)
 
