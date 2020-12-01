@@ -54,7 +54,16 @@ Una expresión regular es una cadena que describe un patrón de caracteres. Se b
 /\bP...o\b/
 ```
 
-### objetos anidados
+### Agregaciones
+
+
+De la misma forma en que hacíamos subconsultas en SQL, es posible utilizar los resultados de otras consultas dentro de Mongo. 
+
+
+Las agregaciones son divididas por lo que se conoce como capa. Cada capa puede ver las columnas de la capa anterior y en cada paso se genera una nueva colección con los resultados correspondientes.
+
+
+### Objetos anidados
 
 Existen documentos que pueden tener objetos anidados
 
@@ -65,15 +74,52 @@ Existen documentos que pueden tener objetos anidados
 
 
 
+## WORK 
 
 
 
+### Expresiones regulares
+
+[Expresiones regulares](https://github.com/aMurryFly/A1-Introduccion-a-Bases-de-Datos-Santander/tree/main/Sesion-05/retosClass)
 
 
+### Objetos (Notación punto)
 
 
+Agrega un filtro que permita obtener todas las publicaciones que tengan 50 o más comentarios, que la valoración sea mayor o igual a 80, que cuenten con conexión a Internet vía cable y estén ubicada en Brazil.
+
+{
+    number_of_reviews: {$gte: 50}, 
+    "review_scores.review_scores_rating": {$gte: 80}, 
+    amenities: {$in: [/Ethernet/i]}, 
+    "address.country_code": "BR" 
+}
 
 
+[Operadores en objetos](https://docs.mongodb.com/manual/reference/operator/query/in/)
+
+[Agregaciones ejemplos](https://github.com/beduExpert/A1-Introduccion-a-Bases-de-Datos-Santander/blob/main/Sesion-05/Ejemplo-03/Readme.md)
+
+
+[Ejercicio ](https://github.com/beduExpert/A1-Introduccion-a-Bases-de-Datos-Santander/blob/main/Sesion-05/Reto-03/Readme.md)
+
+NOTAS:
+
+
+- count (Sólo comillas al campo a contar)
+```json 
+"total"
+```
+
+- group (Siempre id nulo y hacer una columna nueva para realizar operación)
+```json 
+{
+   _id: null,
+   total: {
+      $sum: 1
+   }
+}
+```
 
 
 

@@ -158,3 +158,5 @@ Ordenar información 1 = ascendente
 
 [Ejemplos e imágenes ](https://github.com/beduExpert/A1-Introduccion-a-Bases-de-Datos-Santander/blob/main/Sesion-04/Reto-02/Readme.md)
 
+
+
